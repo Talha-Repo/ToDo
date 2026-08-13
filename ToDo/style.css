@@ -5,7 +5,7 @@
         }
         .container{
             border: 1px solid rgb(96, 52, 5);
-            width: 400px;
+            width: 350px;
             /*height: 60vh;*/
             background-color: rgba(240, 240, 159, 0.5);
             border-radius: 10px;
@@ -42,10 +42,10 @@
              height: 4.8vh;
              background-color:#00000000;
              font-family:'Times New Roman', Times, serif;
-             font-size:15px ;
+             font-size:12px ;
              font-weight:bold;
              text-align: center;
-             margin-left: 30px;
+             margin-left: 15px;
              margin-right: 20px;
              border: none;
         }
@@ -108,6 +108,7 @@
             padding-top: 5px;
             color: rgba(165, 42, 42);
             font-weight: bold;
+            padding-left: 3px;
         }
         #btnDelAll{
            height: 20px;
