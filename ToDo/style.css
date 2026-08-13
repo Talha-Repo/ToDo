@@ -1,0 +1,119 @@
+
+        body{
+            background-color: rgb(243, 230, 210);
+       
+        }
+        .container{
+            border: 1px solid rgb(96, 52, 5);
+            width: 400px;
+            /*height: 60vh;*/
+            background-color: rgba(240, 240, 159, 0.5);
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            color: rgba(165, 42, 42);
+            font-size: 1.25rem;
+        }
+        .entriesx{
+            border-radius: 10px 10px 8px 8px ;
+            border: 1px solid rgb(82, 34, 4); 
+            padding-bottom:3px ;    
+        }
+ 
+        #task{
+             width:79%;
+            height: 4.8vh; 
+            border-radius: 10px 0PX 0PX 0px;
+            background: #00000000;
+            border: 1px solid rgb(111, 54, 18);
+             color :rgb(2, 2, 2);
+            text-align: justify;
+            font-family:'Times New Roman', Times, serif ;
+            font-size:15px ;
+            font-weight:bold;
+        }
+        .menu{
+             border: 1px solid rgb(111, 54, 18);
+             border-radius: 0px 0PX 10PX 10px;
+             display: flex;
+        }
+        #search{
+             height: 4.8vh;
+             background-color:#00000000;
+             font-family:'Times New Roman', Times, serif;
+             font-size:15px ;
+             font-weight:bold;
+             text-align: center;
+             margin-left: 30px;
+             margin-right: 20px;
+             border: none;
+        }
+        #search:focus{
+            outline: none;
+            border: 1px dashed  rgb(111, 54, 18);
+            border-radius: 10px;
+        }
+        #task:focus{
+            width:79%;
+            border-radius: 10px 0PX 0PX 0px;
+            border: 1.5px solid rgb(61, 26, 4);
+            outline: none;
+        }
+        #btnAdd{
+            width:20% ;
+            border-radius: 0px 10PX 0PX 0px;
+            border: 1px solid rgb(82, 34, 4);
+            color:rgba(240, 240, 159, 0.858);
+            font-weight: bold;
+            background-color:  rgba(165, 42, 42, 0.826);
+        }
+        .input {
+            display: flex;
+        }
+        .card {
+            display:flex;
+            gap: 10px;
+            border-bottom: 1px solid rgb(82, 34, 4);
+            padding: 5px;
+            align-items: center;
+        }
+        .checked{
+            text-decoration: line-through;
+            color: grey;
+        }
+        .check{
+            height: 20px;
+            accent-color:rgba(165, 42, 42, 0.826);
+            flex-shrink: 0;
+            background-color: rgb(111, 54, 18);
+            border:  solid rgb(111, 54, 18);
+        }
+        .entryp{
+          margin: 0px ;
+          font-size:0.9rem;
+          text-align: left;
+          word-break: break-word;
+          flex: 1;
+        }
+        .btnDel{
+           height: 20px;
+           background-color: rgba(165, 42, 42, 0.826);
+           border: 1px solid rgb(111, 54, 18);
+           border-radius: 5px;
+        }
+        label{
+            font-family:'Times New Roman', Times, serif ;
+            font-size: small;
+            padding-top: 5px;
+            color: rgba(165, 42, 42);
+            font-weight: bold;
+        }
+        #btnDelAll{
+           height: 20px;
+           background-color: rgba(165, 42, 42, 0.826);
+           border: 1px solid rgb(111, 54, 18);
+           border-radius: 5px;
+           margin-top: 2.5px;
+           margin-left: 5px;
+        }
