@@ -39,7 +39,7 @@
              display: flex;
         }
         #search{
-             height: 4.8vh;
+            
              background-color:#00000000;
              font-family:'Times New Roman', Times, serif;
              font-size:12px ;
@@ -88,6 +88,11 @@
             flex-shrink: 0;
             background-color: rgb(111, 54, 18);
             border:  solid rgb(111, 54, 18);
+        }
+        #checkAll{
+            height: 20px;
+            accent-color:rgba(165, 42, 42, 0.826);
+            flex-shrink: 0;
         }
         .entryp{
           margin: 0px ;
