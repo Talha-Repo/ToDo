@@ -170,22 +170,18 @@ h2{
     gap: 3px;
 } 
 
-#search{ 
-    background-color:#00000000; 
+#lblEntries{ 
     font-family:'Times New Roman', Times, serif; 
-    font-size:12px; 
+    font-size:14px; 
     font-weight:bold; 
     text-align:center; 
-    margin-left:15px; 
+    margin-left:25px; 
     margin-right:20px; 
     border:none;
     flex:1;
     min-width:0;
 } 
-
-#search:focus{ 
-    outline:none; 
-} 
+ 
 
 #task:focus{ 
     width:79%; 
